@@ -6,7 +6,7 @@
     <title>Home</title>
     <style>
       .texted {
-        text-shadow: 5px 5px 10px  rgba(0, 0, 0, 0.5);
+        text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
       }
 
       body {
@@ -21,25 +21,24 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 100vh;
-        background-image: 
-            linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
-            url(../kepek/hajo.jpg);
+        background-image:
+          linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+          url(../kepek/hajo.jpg);
         background-size: cover;
       }
 
       @media (max-width: 786px) {
         header {
-            display: grid;
-             /* Majd itt lesz a header mobil CSS-e. */
+          display: grid;
+          /* Majd itt lesz a header mobil CSS-e. */
         }
 
         body {
-            margin: 0;
+          margin: 0;
         }
-
       }
 
-      .container {
+      .containerh {
         background-color: rgba(255, 255, 255, 0.1);
         border: 2px solid rgba(255, 255, 255, 0.1);
         padding: 20px;
@@ -54,7 +53,7 @@
 
       h1 {
         font-size: 48px;
-        text-shadow: 10px 10px 10px  rgba(0, 0, 0, 0.5);
+        text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
       }
 
       .cont-button {
@@ -76,23 +75,75 @@
         backdrop-filter: blur(8px);
       }
 
+      section {
+        background-color: rgba(255, 255, 255, 0.1);
+        border: 2px solid rgba(255, 255, 255, 0.1);
+        padding: 20px;
+        border-radius: 30px;
+        margin: 20px;
+        backdrop-filter: blur(12px);
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+      }
+
+      .containert {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+      }
+
+      .card {
+        border-left: 5px solid aqua;
+      }
+
+      .on {
+        padding-left: 10px;
+      }
+
     </style>
   </head>
   <body>
     <header>
-
-      <div class="container">
-        <h1>Weboldal <br> címe</h1>
+      <div class="containerh">
+        <h1>
+          Weboldal <br />
+          címe
+        </h1>
       </div>
 
       <div class="cont-button">
         <div class="btn texted">Hívás</div>
         <div class="btn texted">e-mail</div>
       </div>
-    
     </header>
+
     <nav></nav>
-    <main></main>
+
+    <main>
+      <section class="trust">
+        <div class="containert">
+          <div class="card" id="card1">
+            <div class="on">
+              <h3>Megbízhatóság</h3>
+              <p>Több nagy vállalat bizalmát nyerte el a szolgáltatásunk</p>
+            </div>
+          </div>
+
+          <div class="card" id="card2">
+            <div class="on">
+              <h3>Megbízhatóság</h3>
+              <p>Több nagy vállalat bizalmát nyerte el a szolgáltatásunk</p>
+            </div>
+          </div>
+
+          <div class="card" id="card3">
+            <div class="on">
+              <h3>Megbízhatóság</h3>
+              <p>Több nagy vállalat bizalmát nyerte el a szolgáltatásunk</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
