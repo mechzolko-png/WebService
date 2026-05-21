@@ -1,0 +1,41 @@
+h1{ 
+    color: rgb(28, 28, 28);
+    font-style: italic;
+    font-size: 32px;
+}
+button{
+     background-color: rgb(11, 145, 223);
+     color: black;
+     border: 0ch;
+     transition: 0.3s;
+}
+button:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px rgb(11, 145, 223);
+
+}
+div.container{
+    display:flex;
+    gap:20px
+}
+div.button{
+    width: fit-content;
+    padding: 10px;
+}
+h1{
+    justify-content: center;
+    align-items: center;
+}
+text{
+    box-shadow: inset 5px 5px 10px rgb(rgb(0, 0, 0));
+    color: rgb(28, 28, 28);
+}
+btn.texted{
+    background-color: whitesmoke;
+    box-shadow: inset 5px 5px 10px rgb(rgb(146, 145, 145));
+    border: 5px solid rgb(146, 145, 145);
+    font-size: xx-large;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}   
