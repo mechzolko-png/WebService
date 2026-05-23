@@ -4,14 +4,14 @@ h1{
     font-size: 32px;
 }
 button{
-     background-color: rgb(11, 145, 223);
+     background-color: rgb(158, 163, 2);
      color: black;
      border: 0ch;
      transition: 0.3s;
 }
 button:hover{
     transform: scale(1.1);
-    box-shadow: 0px 0px 10px rgb(11, 145, 223);
+    box-shadow: 0px 0px 10px rgb(135, 142, 2);
 
 }
 div.container{
@@ -22,20 +22,82 @@ div.button{
     width: fit-content;
     padding: 10px;
 }
-h1{
+header{
     justify-content: center;
     align-items: center;
+    display: flex;
 }
 text{
-    box-shadow: inset 5px 5px 10px rgb(rgb(0, 0, 0));
+    box-shadow: inset 5px 5px 10px rgb(0, 0, 0);
     color: rgb(28, 28, 28);
 }
-btn.texted{
+.btn.texted{
     background-color: whitesmoke;
     box-shadow: inset 5px 5px 10px rgb(rgb(146, 145, 145));
     border: 5px solid rgb(146, 145, 145);
-    font-size: xx-large;
+    font-size: medium;
     padding: 5px;
     padding-left: 20px;
     padding-right: 20px;
 }   
+.button.container{
+    display: flex;
+    gap: 20px;
+    box-shadow: inset 5px 5px 10px rgb(168, 165, 165);
+    background-color:black ;
+    text-align: center;
+    padding: 10px
+}
+
+.button.container:hover{
+    display: flex;
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px rgb(28, 28 , 28);
+    padding: auto;
+    background-color:grey;
+    transition: all 0.5s;
+
+}
+
+.container.kuki{
+        background-color: bisque;
+        color: black;
+        padding: 5px;
+        border-radius: 10px;
+        justify-content: center;
+        align-items: center;
+
+
+}
+div.container.kuki:hover{
+                display: flex;
+                transform: scale(1.5);
+                transition: all 0.5s;
+                box-sizing: content-box;
+                box-shadow: black;
+                text-align: center;
+                justify-content:center; 
+
+
+
+
+}
+
+
+
+
+div.gombocska{
+    display: flex;
+    gap: 20px;
+    box-shadow: inset 5px 5px 10px rgb(rgb(7, 7, 7), rgb(11, 11, 11), rgb(11, 11, 11));
+    background-color: bisque;
+    text-align: center;
+    padding: 10px;
+}
+dv.gombocska:hover{
+    transform: matrix(1.05);
+    box-shadow: 0px 0px 10px rgb(black);
+    padding: auto;
+    background-color: grey;
+
+}
