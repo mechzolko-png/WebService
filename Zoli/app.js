@@ -5,4 +5,4 @@ async function loadPart(id, file) {
 }
 
 loadPart("header", "parts/header.html");
-loadPart("nav", "../Peti/nav.html");
+loadPart("nav", "parts/nav.html");

@@ -1,12 +1,63 @@
+<style>
+    header {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 100vh;
+        background-image:
+          linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+          url(kepek/hajo.jpg);
+        background-size: cover;
+      }
+
+
+    .containerh {
+        background-color: rgba(255, 255, 255, 0.1);
+        border: 2px solid rgba(255, 255, 255, 0.1);
+        padding: 20px;
+        border-radius: 30px;
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        backdrop-filter: blur(12px);
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+      }
+
+      h1 {
+        font-size: 48px;
+        text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+      }
+
+      .cont-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: calc(15vh);
+        padding-top: 50vh;
+      }
+
+      .btn {
+        font-size: xx-large;
+        border: 5px solid white;
+        border-radius: 10px;
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        box-shadow: inset 0px 0px 2px 2px rgba(0, 0, 0, 0.3);
+        backdrop-filter: blur(8px);
+      }
+</style>
+
 <header>
-    <div class="containerh">
-    <h1>
-        Weboldal <br />
-        címe
-    </h1>
-    </div>
-    <div class="cont-button">
-    <div class="btn texted">Hívás</div>
-    <div class="btn texted">e-mail</div>
-    </div>
-</header>
+      <div class="containerh">
+        <h1>
+          Weboldal <br />
+          címe
+        </h1>
+      </div>
+
+      <div class="cont-button">
+        <div class="btn texted">Hívás</div>
+        <div class="btn texted">e-mail</div>
+      </div>
+    </header>
