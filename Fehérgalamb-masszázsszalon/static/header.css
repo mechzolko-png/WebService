@@ -1,3 +1,12 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(pictures/granny.jpg);
+    background-position: center;
+}
+
 .cim{
     display: flex;
     color: rgb(54, 53, 53);
@@ -7,14 +16,28 @@
 }
 
 .call-btn{
+    display: flex;
     width: 200px;
     height: 100px;
     border-radius: 20%;
     border: 5px 5px 5px solid black;
     transition: all 0.5s;
+    justify-content: center;
+    align-items: center;
 }
 
-.call-btn:hover{
-    transform: scale(1.1);
+button {
+    border:3px solid rgba(0, 0, 0, 0.3);
+    background: linear-gradient(135deg, #cfc6bb,#e6ded6);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: x-large;
+    font-weight: 700;
+    font-family: sans-serif;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
 
+button:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
 }

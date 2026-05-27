@@ -4,5 +4,5 @@ async function loadPart(id, file) {
   document.getElementById(id).innerHTML = text;
 }
 
-// loadPart("nav", "parts/header.html")
+loadPart("header", "parts/header.html")
 loadPart("main", "parts/main.html")

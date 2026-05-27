@@ -14,3 +14,6 @@ Szóval most amit neked kell csinálni ha te is akarod csinálni az az hogy a pa
 rakod a HTML fájlokat és a CSS pedig a static2-be megy neked
 
 Neked szerintem a --FOOTER-t kellene most megcsinálni és a --HEADER-t
+
+
+
