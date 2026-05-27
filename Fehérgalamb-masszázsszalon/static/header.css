@@ -1,0 +1,20 @@
+.cim{
+    display: flex;
+    color: rgb(54, 53, 53);
+    text-shadow: 0px 0px 10px rgb(black);
+    align-items: center;
+    justify-content: center;
+}
+
+.call-btn{
+    width: 200px;
+    height: 100px;
+    border-radius: 20%;
+    border: 5px 5px 5px solid black;
+    transition: all 0.5s;
+}
+
+.call-btn:hover{
+    transform: scale(1.1);
+
+}
