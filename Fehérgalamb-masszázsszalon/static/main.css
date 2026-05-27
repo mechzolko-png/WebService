@@ -3,6 +3,10 @@ br {
     padding: 5px;
 }
 
+.bb {
+  border: 30px solid rgba(0, 0, 0, 0.05);
+}
+
 /* =========================
    MAIN CONTAINER
 ========================= */
@@ -108,7 +112,7 @@ br {
 
 .portfolio {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(25vw, 1fr));
   gap: 15px;
 
   margin-bottom: 40px;
@@ -150,11 +154,11 @@ br {
 }
 
 .profile {
-  width: 40px;
-  height: 40px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
 
-  background: linear-gradient(135deg, #b7a89a, #d8cfc4);
+  background: linear-gradient(135deg, #000000, #d8cfc4);
 }
 
 .card-content .comment {
